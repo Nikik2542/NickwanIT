@@ -1,0 +1,172 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+header {
+  background-color: #0008ff;
+  color: #fff;
+  padding: 20px;
+  text-align: center; 
+}
+header h1 {
+  color: saddlebrown;
+}
+main {
+  display: flex;
+  justify-content: center;
+  
+  
+  
+}
+
+.content_area {
+  flex: 1;
+  background-color: #ad4399;
+  height: auto;  
+}
+
+aside {
+  flex: 0.2;
+  background-color: darkgray;
+  height: 80vh;
+  width:20vw:
+
+}
+
+.grid-outer-container {
+  display: grid;
+ grid-template-columns:
+repeat(auto-fit, minmax(200px, 1fr)); 
+  gap: 10px;
+  height: 100%;
+}
+.grid-inner-container {
+ background-color: green;
+border: 1pt solid black;
+  padding: 10px;
+  text-align: center;
+}
+.grid-inner-container img {
+  width: 50%;
+  height: 50%;
+  object-fit: contain;
+}
+.content_area-flex {
+  background-color: lavenderblush;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  
+}
+.content_area-fle-inner {
+  background-color: lightblue;
+  
+}
+h2 {
+  color: #ff7300;
+  text-align: center;
+}
+h3 {
+  display: flex;
+  min-height: 10vh;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #0011ff;
+  margin: 10px;
+  background-color: #007bff;
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+main h1 {
+  text-align: center;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+body h1 {
+  color: #fbff00;
+  text-align: center;
+
+}
+body {
+  background: lightblue;
+}
+.content-outer {
+  flex: 1;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  
+  margin: 2px;
+  width: 80vw;
+
+}
+.content-inner {
+  flex:1;
+  background-color: lightblue;
+
+  height: 100%;
+  
+
+
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 2px solid red;
+  margin: 2px;
+
+  flex-direction: column-reverse;
+}
+.content-outer-web {
+  flex: 1;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #880264;
+  margin: 2px;
+  flex-direction: column;
+
+}
+.content-inner h1 {
+  color: white;
+  text-align: center;
+}
+.content-inner img {
+  max-width: 20vh;
+  object-fit: contain;
+}
+nav {
+  display: flex;
+  min-height: 10vh;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid red;
+  margin: 10px;
+  background-color: red;
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+
+nav a {
+  margin: 10px;
+}
+.kanit-extralight {
+  font-family: "Kanit", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+.h3{
+  text-align: center;
+  background-color: red;
+}
+iframe {
+ align-items: center;
+}
